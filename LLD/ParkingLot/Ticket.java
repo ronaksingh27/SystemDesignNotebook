@@ -10,7 +10,9 @@ public class Ticket {
     LocalDateTime entryTime;
     LocalDateTime exitTime;
 
+    //Use constructor injection to get these varaibles
+
     public BigDecimal calculateParkingDuration(){
-        
+        //diff = exitTime - entryTime
     }
 }
